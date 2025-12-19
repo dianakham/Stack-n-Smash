@@ -212,6 +212,89 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!223 &87937376 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 3540152170138639999, guid: 47b589aed74d8412389cce5205dbe81c,
+    type: 3}
+  m_PrefabInstance: {fileID: 429976297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &330953891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330953893}
+  - component: {fileID: 330953892}
+  - component: {fileID: 330953894}
+  - component: {fileID: 330953895}
+  m_Layer: 0
+  m_Name: gamelogic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &330953892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330953891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f289c074f6b40c4b860ad9ee98b6723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIStartButton: {fileID: 419478304}
+  UIShootButton: {fileID: 2009649396}
+  UIResetButton: {fileID: 953716110}
+--- !u!4 &330953893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330953891}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &330953894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330953891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 794b4ce53b3fbf8479415821b6577b0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ARMagicBar: {fileID: 87937376}
+--- !u!114 &330953895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330953891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c7b281041e1b04fb899e97417a5ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPrefab: {fileID: 3486489350761989119, guid: ce985fecc4d33aa48a83d95b7da86e05,
+    type: 3}
+  ballForwardForce: 500
 --- !u!1 &387248475
 GameObject:
   m_ObjectHideFlags: 0
@@ -1754,3 +1837,4 @@ SceneRoots:
   - {fileID: 70332928}
   - {fileID: 429976297}
   - {fileID: 387248479}
+  - {fileID: 330953893}

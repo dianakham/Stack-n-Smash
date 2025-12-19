@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9dac3f5aaaf444bca8d085f50e9af70a, type: 3}
-  m_Name: Cuba1_PlaceableObject
+  m_Name: WBparent_PlaceableObject
   m_EditorClassIdentifier: 
-  nameOfObject: Cuba1(Clone)
-  uiSprite: {fileID: 2800000, guid: 7134658e76c99423d82461457629143a, type: 3}
-  placementObject: {fileID: 3155926558373680383, guid: 4b9084ee90d0b41aeb3106e1dfce1f16, type: 3}
+  nameOfObject: WBparent(Clone)
+  uiSprite: {fileID: 2800000, guid: c4c014f155dad954084ed484dafa1c28, type: 3}
+  placementObject: {fileID: 3036619055028067721, guid: e4c8dc255668e1845aa54ac974d89c40,
+    type: 3}
   placementCosts: 0
